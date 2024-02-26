@@ -1,6 +1,7 @@
 package de.application;
 
 
+import de.application.client.CalcClient;
 import de.application.demo.Demo;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
@@ -17,14 +18,9 @@ public class Main {
 
 		context.registerShutdownHook();
 
-		Demo demo = (Demo)context.getBean("demo");
-		//demo.foo();
+		//context.getBean(CalcClient.class).go();
 
-		if(System.currentTimeMillis() > 10) return;
 
-		Demo d2 = context.getBean(Demo.class);
-
-		System.out.println(demo == d2);
 
 
 	}
