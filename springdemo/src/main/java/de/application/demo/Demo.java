@@ -5,14 +5,24 @@ import de.application.translator.Translator;
 public class Demo {
 
     private String message="Hallo Welt";
-    private final Translator translator;
+    private Translator translator;
 
-    public Demo(final Translator translator, String message) {
-        this.translator = translator;
-        this.message = message;
-        System.out.println(translator.translate(message));
+//    public Demo(final Translator translator) {
+//        this.translator = translator;
+//    }
+
+    public Demo() {
+
+        System.out.println(message);
     }
 
+    public Translator getTranslator() {
+        return translator;
+    }
+
+    public void setTranslator(final Translator translator) {
+        this.translator = translator;
+    }
 
     public String getMessage() {
         return message;

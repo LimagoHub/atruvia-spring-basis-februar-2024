@@ -13,8 +13,6 @@ g
 7src/main/java/de/application/translator/Translator.java,2\d\2db5d224e1bd682d36caf70d3b6cd282a1e93a32
 n
 >src/main/java/de/application/translator/ToUpperTranslator.java,4\f\4fb5ccf3bd9b5971c38d795e9f0c3275bb482154
-V
-&src/main/java/de/application/math.java,3\f\3f94fb574f3b60aca84b723dffc90f21e7cfa51e
 c
 3src/main/java/de/application/client/CalcClient.java,9\0\90ca8adfa0b8de9e1252c35903305ec696ab1c08
 g
@@ -23,3 +21,9 @@ g
 7src/main/java/de/application/math/CalculatorSecure.java,8\d\8d058fe571369a1f6847ea436027f03571ad9dd7
 e
 5src/main/java/de/application/math/CalculatorImpl.java,9\0\90fc8f991ab7d56f34df17c6e7f41e3f666c0ce9
+a
+1src/main/java/de/application/math/Calculator.java,3\5\35c3c5df1d4a0e828d2407d2707aab14c6c29eda
+n
+>src/main/java/de/application/translator/ToLowerTranslator.java,0\6\0654a8acf0503b2442b46d7a346e112080fec236
+_
+/src/main/java/de/application/demo/NeueDemo.java,c\6\c617451b8d881a376670bc020c9ddf943c371ef7
