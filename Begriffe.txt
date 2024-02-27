@@ -1,5 +1,5 @@
 Inversion of Control (Content Dependency Injection)
-@Component
+@Component # Stellt die Komponente unter die Verwaltung von Spring
 	@Controller, @Service, @Repository
 	   @RestController
 @Scope (prototype|singleton)
